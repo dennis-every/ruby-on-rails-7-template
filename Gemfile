@@ -27,6 +27,7 @@ group :development do
   gem 'guard', '~> 2.18', require: false
   gem 'guard-rspec', '~> 4.7', '>= 4.7.3', require: false
   gem 'guard-rubocop', '~> 1.5', require: false
+  gem 'letter_opener', '~> 1.8', '>= 1.8.1', require: false
   gem 'rack-mini-profiler'
   gem 'spring'
   gem 'web-console'
