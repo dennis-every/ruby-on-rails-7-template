@@ -21,6 +21,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw], require: false
+  gem 'faker', '~> 3.2'
   gem 'rspec-rails', '~> 6.0', '>= 6.0.3', require: false
   gem 'rubocop', '>= 1.0', '< 2.0', require: false
 end
