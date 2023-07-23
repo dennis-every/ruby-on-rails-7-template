@@ -372,6 +372,7 @@ DEPENDENCIES
   redis (~> 4.0)
   rspec-rails (~> 6.0, >= 6.0.3)
   rubocop (~> 1.54, >= 1.54.2)
+  rubocop-factory_bot (~> 2.0)
   rubocop-performance (~> 1.18)
   rubocop-rails (~> 2.20)
   rubocop-rspec (~> 2.22)
