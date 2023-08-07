@@ -1,0 +1,10 @@
+<nav class='navbar bg-light'>
+  <div class="container-fluid">
+    <div class="col">
+      <%= link_to 'Home', root_path, class: 'navbar-brand' %>
+    </div>
+    <div class="col text-end">
+      <%= button_to 'Log out', destroy_user_session_path, method: :delete, class: 'btn btn-primary' %>
+    </div>
+  </div>
+</nav>
