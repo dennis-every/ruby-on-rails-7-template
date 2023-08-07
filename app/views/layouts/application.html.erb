@@ -3,8 +3,11 @@
   <%= render 'layouts/head' %>
   <body>
     <%= render 'layouts/navbar' %>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    <%= yield %>
+    <section id='content'>
+      <%= render 'layouts/sidebar' %>
+      <main>
+        <%= yield %>
+      </main>
+    </section>
   </body>
 </html>
