@@ -1,0 +1,21 @@
+.devise {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > * {
+    min-width: 20rem;
+    max-width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .card-footer > * {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+}
