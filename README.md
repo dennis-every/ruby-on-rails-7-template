@@ -36,3 +36,13 @@ This is a Ruby on Rails 7 application template to start quickly a new applicatio
 ### Linters
 
 - Rubocop
+
+## How to use?
+
+- Install and start docker
+- On the github repo of this template, click on:
+  - Use this template
+  - Create a new repo
+- Clone the new repo to your local dev environment
+- Change into the directory of the new repo on your local dev environment
+- Run the command `docker compose up`
