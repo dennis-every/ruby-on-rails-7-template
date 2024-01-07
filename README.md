@@ -55,3 +55,13 @@ This is a Ruby on Rails 7 application template to start quickly a new applicatio
   - `bin/rails c`
   - `User.first`
     - User Load (0.6ms) SELECT "users".\* FROM "users" ORDER BY "users"."id" ASC LIMIT $1 [["LIMIT", 1]]
+
+## Database
+
+- To view the database tables e.g. to verify migrations after running bin/rails db:migrate
+- Shell into the database docker container with psql with the user postgres and database name of postgres:
+  - `docker exec -it ruby-on-rails-7-template-db-1 psql -U postgres -d postgres`
+- List the database tables:
+  - `\dt`
+- List table contents:
+  - `SELECT * FROM your_table_name LIMIT 10;`
