@@ -46,3 +46,12 @@ This is a Ruby on Rails 7 application template to start quickly a new applicatio
 - Clone the new repo to your local dev environment
 - Change into the directory of the new repo on your local dev environment
 - Run the command `docker compose up`
+- Create first user by seeding the database:
+- Shell into the docker container
+  - `docker exec -it ruby-on-rails-7-template-web-1 sh`
+- Seed the database:
+  - `bin/rails db:seed`
+- Verify that user has been created:
+  - `bin/rails c`
+  - `User.first`
+    - User Load (0.6ms) SELECT "users".\* FROM "users" ORDER BY "users"."id" ASC LIMIT $1 [["LIMIT", 1]]
